@@ -1,0 +1,18 @@
+{
+  "name": "movietime",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix API_gateway_service\" \"npm run dev --prefix auth_service\" \"npm run dev --prefix user_service\" \"npm run dev --prefix movie_service\" \"npm run dev --prefix theatre_service\" \"npm run dev --prefix event_service\" \"npm run dev --prefix booking_service\" \"npm run dev --prefix payment_service\" \"npm run dev --prefix notification_service\" \"npm run dev --prefix admin_service\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}

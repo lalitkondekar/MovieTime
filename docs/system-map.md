@@ -1,0 +1,11 @@
+Service List:
+1. API Gateway (3005)
+2. User Service (3006)
+3. Authentication Service (3007)
+4. Movie Service (3008)
+5. Theatre Service (3009)
+6. Event Service (3010)
+7. Payment Service (3011)
+8. Admin Service (3012)
+9. Booking Service (3013)
+10. Notification Service (3014)
